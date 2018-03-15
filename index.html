@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Psychic Game</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+    crossorigin="anonymous">
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+  <script src="assets/javascript/game.js"></script>
+</head>
+
+<body>
+
+  <div class="row">
+    <div class="col-12">
+      <div class="jumbotron col-6 offset-3">
+        <div class="container">
+          <h1 class="display-4">Psychic Game</h1>
+          <p class="lead">Try to guess what letter I am thinking of!</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <button id="openKeyboard">Open Keyboard</button>
+  <input id="hiddenInput" style="visibility: hidden;">
+
+  <div class="row">
+
+    <div class="card col-2 offset-3">
+      <h2 class="display-8">Guesses Remaining</h1>
+        <hr>
+        <p class="lead" id="remaining">10</p>
+    </div>
+
+    <div class="card col-1 offset-1">
+      <h2 class="display-8">Wins</h1>
+        <hr>
+        <p class="lead" id="wins">0</p>
+    </div>
+
+    <div class="card col-1 offset-1">
+      <h2 class="display-8">Losses</h1>
+        <hr>
+        <p class="lead" id="losses">0</p>
+    </div>
+
+  </div>
+  <br>
+  <div class="row">
+    <div class="card col-6 offset-3">
+      <h2 class="display-8">Letters Guessed</h2>
+      <hr>
+      <p class="lead" id="guessed"></p>
+    </div>
+  </div>
+
+
+  <br>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
